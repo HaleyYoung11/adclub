@@ -1,0 +1,220 @@
+/***********************
+GOOGLE FONTS
+************************/
+
+@import url(https://fonts.googleapis.com/css?family=Roboto:400,500,300,300italic,400italic,500italic);
+@import url(https://fonts.googleapis.com/css?family=Libre+Baskerville:400italic);
+
+
+
+
+/***********************
+GENERAL
+************************/
+
+html {
+	font-size: 1.3em;
+	font-family: 'Roboto', Arial, sans-serif;
+	line-height: 1.5;
+	color: #333;
+}
+
+
+body {
+	margin: 0;
+}
+
+img {
+	max-width: 100%;
+}
+
+header {
+	background-image: url('https://scontent-ord1-1.xx.fbcdn.net/t31.0-8/11169665_10152726162376787_3654629061501134282_o.jpg');
+	background-size: cover;
+	background-position: center;
+	height: 350px;
+	box-shadow: 0px 10px 15px rgba(0,0,0,.4);
+	margin: 0;
+}
+
+.site-title {
+	font-size: 4em;
+	color: #FFF;
+	padding: 7% 5% 5%;
+	margin: 0;
+	text-align: center;
+	background-color: rgba(0,0,0,.3);
+	text-shadow: 0px 0px 10px rgba(0,0,0,.6);
+	height: 350px;
+	box-sizing: border-box;
+}
+
+nav {
+	background: rgba(169,25,44,1);
+	text-align: center;
+	box-shadow: 0px 5px 10px rgba(0,0,0,.2);
+	margin: 0;
+}
+
+nav ul {
+	margin: 0;
+	padding: 10px 0;
+}
+
+nav li {
+	display: inline-block;
+	padding: 10px;
+}
+
+nav li a, nav li a:visited {
+	text-decoration: none;
+	font-size: 1.1em;
+	color: #FFF;
+	transition: all .15s ease-in;
+	padding: 5px 10px;
+	border-radius: 5px;
+}
+
+nav li a:hover {
+	color: #FFF;
+	background: #ba4656;
+}
+
+section {
+	max-width: 900px;
+	padding: 2% 5%;
+	margin: auto;
+	box-sizing: border-box;
+	text-align: justify;
+}
+
+a, a:visited {
+	color: #a9192c;
+	text-decoration: none;
+	transition: .1s linear;
+}
+
+a:hover {
+	color: #333;
+}
+
+h2 {
+	text-align: center;
+	color: #a9192c;
+}
+
+.sub {
+	font-size: 2em;
+	text-align: center;
+	font-style: italic;
+	font-family: 'Libre Baskerville', serif;
+}
+
+.meeting {
+	text-align: center;
+	font-size: 1.4em;
+	font-weight: 400;
+	color: #444;
+}
+
+footer {
+	background: #a9192c;
+	color: #FFF;
+	font-size: .7em;
+	text-align: center;
+	padding: 1%;
+	box-shadow: 0px -5px 15px rgba(0,0,0,.3);
+	font-weight: 300;
+}
+
+footer ul {
+	margin: 0;
+	padding: 30px 0 10px;
+}
+
+footer li {
+	display: inline-block;
+	list-style-type: none;
+	padding: 0 10px;
+}
+
+footer img {
+	opacity: .8;
+	transition: .1s linear;
+	width: 30px;
+}
+
+footer img:hover {
+	opacity: 1;
+}
+
+a.footer, a.footer:visited {
+	color: #e5babf;
+	text-decoration: none;
+}
+
+a.footer:hover {
+	color: #FFF;
+	transition: .1s linear;
+}
+
+
+
+
+
+/***********************
+PAGE SPECIFIC
+************************/
+
+.schedule {
+	text-align: center;
+}
+
+.schedule img {
+	width: 200px;
+}
+
+.gallery {
+	text-align: center;
+}
+
+ul.portfolio {
+	padding-left: 0;
+	margin: 0;
+}
+
+.portfolio li {
+	display: inline-block;
+	margin: 10px;
+}
+
+.portfolio li img {
+	height: 200px;
+	width: 200px;
+}
+
+
+
+
+/***********************
+MEDIA QUERIES
+************************/
+
+@media screen and (max-width: 900px) {
+	.site-title {
+		font-size: 3em;
+	}
+	.sub {
+		font-size: 1.5em;
+	}
+	section {
+		text-align: left;
+	}
+}
+
+/*@media screen and (max-width: 400px) {
+	nav li {
+		display: block;
+	}
+}*/
+	
